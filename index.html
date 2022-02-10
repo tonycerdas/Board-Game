@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="flex-container-all">
+            <div class="flex-items-all">
+                <i class="fa fa-user-circle player1-circle" style="font-size:10vw;color:rgb(80, 77, 77);"></i>
+                <h1 class="winner-1"></h1>
+            </div>
+            <div class="flex-items-all">
+                <div class="content">
+                    <div class="flex-container">
+                        <div class="flex-items firstDiv-1" onclick="display(this)" id="1"></div>
+                        <div class="flex-items secondDiv-1" onclick="display(this)" id="2"></div>
+                        <div class="flex-items thirdDiv-1" onclick="display(this)" id="3"></div>
+                    </div>
+                    <div class="flex-container">
+                        <div class="flex-items firstDiv-2"onclick="display(this)" id="4"></div>
+                        <div class="flex-items secondDiv-2"onclick="display(this)" id="5"></div>
+                        <div class="flex-items thirdDiv-2" onclick="display(this)" id="6"></div>
+                    </div>
+                    <div class="flex-container">
+                        <div class="flex-items firstDiv-3" onclick="display(this)" id="7"></div>
+                        <div class="flex-items secondDiv-3" onclick="display(this)" id="8"></div>
+                        <div class="flex-items thirdDiv-3" onclick="display(this)" id="9"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-items-all">
+                <i class="fa fa-user-circle player2-circle" style="font-size:10vw;color:rgb(80, 77, 77);"></i>
+                <h1 class="winner-2"></h1>
+            </div>
+        </div>
+    </section>
+    <section class="play">
+        <i class="fa fa-play-circle" style="font-size:8vw;"></i>
+    </section>
+    <section class="reload">
+        <i class="fa fa-refresh reload-icon" style="font-size:7vw;"></i>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
